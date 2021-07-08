@@ -115,7 +115,7 @@ def mirror_download(url: str, filename=None, logger: logging.Logger = logger):
 
 def app_uiautomator_apk_urls():
     ret = []
-    for name in ["app-uiautomator.apk", "app-uiautomator-test.apk"]:
+    for name in ["app-uiautomator-test.apk"]:
         ret.append((name, "".join([
             GITHUB_BASEURL, "/android-uiautomator-server/releases/download/",
             __apk_version__, "/", name
