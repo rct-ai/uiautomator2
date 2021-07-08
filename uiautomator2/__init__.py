@@ -460,7 +460,8 @@ class _BaseClient(object):
         except (requests.ReadTimeout,
                 ServerError,
                 UiAutomationNotConnectedError) as e:
-            self.reset_uiautomator(str(e))  # uiautomator可能出问题了，强制重启一下
+            #self.reset_uiautomator(str(e))  # uiautomator可能出问题了，强制重启一下
+            pass
         except (NullObjectExceptionError,
                 NullPointerExceptionError,
                 StaleObjectExceptionError) as e:
