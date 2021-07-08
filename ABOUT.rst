@@ -1,1 +1,1 @@
-Documentation in <https://github.com/openatx/uiautomator2>
+Documentation in <https://github.com/rct-ai/uiautomator2>
