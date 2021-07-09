@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* change uiautomator2 to rctuiautomator2, fix auto installing APK
 * Fix auto install apk bug
 * Fix installing ATX apk
 * update ISSUE\_TEMPLATE for REQUIRED logs
